@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "690004994506",
+    "project_id": "buscador-manitas",
+    "storage_bucket": "buscador-manitas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690004994506:android:1abc1646005d71d6100733",
+        "android_client_info": {
+          "package_name": "com.hardisson.buscamanitas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690004994506-i0n23enp66p5tjpc6cbip8klocjqupbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaGVER9FylL3zRUyUsErTTQ-UTUWae0JE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690004994506-i0n23enp66p5tjpc6cbip8klocjqupbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
