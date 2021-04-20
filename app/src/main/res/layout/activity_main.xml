@@ -41,7 +41,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fontanerosView"
-        app:srcCompat="@drawable/fontaneros2" />
+        app:srcCompat="@drawable/fontaneros2"
+        android:onClick="onClick"/>
 
     <TextView
         android:id="@+id/electricistasView"
@@ -62,7 +63,8 @@
         android:layout_gravity="center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/electricistasView"
-        app:srcCompat="@drawable/electricistas" />
+        app:srcCompat="@drawable/electricistas"
+        android:onClick="onClick"/>
 
     <TextView
         android:id="@+id/pintoresView"
@@ -84,7 +86,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pintoresView"
-        app:srcCompat="@drawable/pintores" />
+        app:srcCompat="@drawable/pintores"
+        android:onClick="onClick"/>
 
     <TextView
         android:id="@+id/obrasView"
@@ -106,7 +109,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/obrasView"
-        app:srcCompat="@drawable/obras" />
+        app:srcCompat="@drawable/obras"
+        android:onClick="onClick"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
