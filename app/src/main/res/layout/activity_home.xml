@@ -21,13 +21,13 @@
 
     <ImageButton
         android:id="@+id/homeButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="410dp"
+        android:layout_height="553dp"
         android:layout_marginTop="12dp"
+        android:onClick="onClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logoView"
-        app:srcCompat="@drawable/home2"
-        android:onClick="onClick"/>
+        app:srcCompat="@drawable/home2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

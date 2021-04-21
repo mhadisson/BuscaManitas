@@ -56,8 +56,8 @@ public class AuthActivity extends AppCompatActivity implements View.OnClickListe
                                 @Override
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     if (task.isSuccessful()) {
-                                        Intent myIntent = new Intent(AuthActivity.this,MainActivity.class);
-                                        startActivity(myIntent);
+                                        Intent mainIntent = new Intent(AuthActivity.this,MainActivity.class);
+                                        startActivity(mainIntent);
                                     }else{
                                         showAlert();
                                     }
