@@ -56,8 +56,9 @@ public class AuthActivity extends AppCompatActivity implements View.OnClickListe
                                 @Override
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     if (task.isSuccessful()) {
-                                        Intent mainIntent = new Intent(AuthActivity.this,MainActivity.class);
-                                        startActivity(mainIntent);
+                                        Intent registroIntent = new Intent(AuthActivity.this,RegistroActivity.class);
+                                        registroIntent.putExtra("correo", correo);
+                                        startActivity(registroIntent);
                                     }else{
                                         showAlert();
                                     }
@@ -113,6 +114,5 @@ public class AuthActivity extends AppCompatActivity implements View.OnClickListe
         AlertDialog error = val.create();
         error.setTitle("Error");
         error.show();
-
     }
 }
